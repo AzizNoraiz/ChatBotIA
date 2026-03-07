@@ -1,0 +1,37 @@
+[
+    {
+        "Titre du livre": "Apprendre Python",
+        "Auteur": "Mark Lutz",
+        "Domaine": "Programmation",
+        "Année de publication": 2013,
+        "Disponibilité": "Disponible"
+    },
+    {
+        "Titre du livre": "Introduction à l'Intelligence Artificielle",
+        "Auteur": "Stuart Russell & Peter Norvig",
+        "Domaine": "Intelligence Artificielle",
+        "Année de publication": 2020,
+        "Disponibilité": "Emprunté"
+    },
+    {
+        "Titre du livre": "Cybersécurité pour les débutants",
+        "Auteur": "Raef Meeuwisse",
+        "Domaine": "Cybersécurité",
+        "Année de publication": 2017,
+        "Disponibilité": "Disponible"
+    },
+    {
+        "Titre du livre": "Clean Code",
+        "Auteur": "Robert C. Martin",
+        "Domaine": "Programmation",
+        "Année de publication": 2008,
+        "Disponibilité": "Disponible"
+    },
+    {
+        "Titre du livre": "Data Science from Scratch",
+        "Auteur": "Joel Grus",
+        "Domaine": "Data Science",
+        "Année de publication": 2019,
+        "Disponibilité": "Emprunté"
+    }
+]
