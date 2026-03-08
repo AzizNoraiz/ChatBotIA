@@ -7,22 +7,6 @@ intelligent basé sur un LLM (GPT) avec architecture RAG.
 
 ---
 
-## 🗂️ Structure du projet
-
-Intro_IA/
-│
-├── bibliotheque.json # Base de données des livres
-│
-├── Niveau1/
-│ └── chatbox_partie1.py # Chatbot déterministe (règles fixes)
-│
-├── Niveau2/
-│ └── chatbox_partie2_v2.py # Chatbot NLP léger (spaCy + TF-IDF)
-│
-└── Niveau3/
-└── chatbox_partie2_niveau3.py # Chatbot intelligent (RAG + GPT)
-
-
 ---
 
 ## 🔰 Niveau 1 — Système Déterministe
@@ -62,11 +46,11 @@ difflib : tolérance aux fautes de frappe (Niveau 1 amélioré)
 
 Fonctionnement : 
 Requête utilisateur
-    ↓ spaCy lemmatise
-    ↓ TF-IDF vectorise
-    ↓ Similarité cosinus avec chaque livre
-    ↓ Tri par score de pertinence (%)
-Affichage des résultats
+1 spaCy lemmatise
+2 TF-IDF vectorise
+3 Similarité cosinus avec chaque livre
+4 Tri par score de pertinence (%)
+5 Affichage des résultats
 
 🤖 Niveau 3 — RAG + GPT (OpenAI)
 Description
